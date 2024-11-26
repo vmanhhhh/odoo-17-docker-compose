@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="dh_documents_document_action" model="ir.actions.act_window">
+        <field name="name">Văn bản</field>
+        <field name="res_model">dh.documents.document</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[]</field>
+        <field name="context">{}</field>
+        <field name="help" type="html">
+            <p>Vui lòng nhập dữ liệu</p>
+        </field>
+    </record>
+    <record id="dh_documents_documemt_view_tree" model="ir.ui.view">
+        <field name="name">dh_documents_document.view.tree</field>
+        <field name="model">dh.documents.document</field>
+        <field name="arch" type="xml">
+            <tree string="">
+                <field name="name" />
+                <field name="number" />
+                <field name="file" />
+                <field name="work_field" />
+            </tree>
+        </field>
+    </record>
+
+</odoo>

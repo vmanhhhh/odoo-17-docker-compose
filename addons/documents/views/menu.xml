@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem
+        id="dh_documents_menu"
+        name="Văn bản"
+        action="dh_documents_document_action"
+        sequence="200"/>
+    
+
+</odoo>

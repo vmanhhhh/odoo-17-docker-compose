@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem
+        id="dh_categories_menu"
+        name="Danh mục dữ liệu"
+        sequence="100"/>
+    <menuitem
+        id="dh_categories_work_field_menu"
+        name="Mảng công tác"
+        action="dh_categories_work_field_action"
+        parent="dh_categories_menu"
+        sequence="101"/>
+
+</odoo>
